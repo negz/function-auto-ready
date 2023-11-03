@@ -1,5 +1,11 @@
 # function-auto-ready
-[![CI](https://github.com/crossplane-contrib/function-auto-ready/actions/workflows/ci.yml/badge.svg)](https://github.com/crossplane-contrib/function-auto-ready/actions/workflows/ci.yml) ![GitHub release (latest SemVer)](https://img.shields.io/github/release/crossplane-contrib/function-auto-ready)
+[![CI](https://github.com/upbound/function-auto-ready/actions/workflows/ci.yml/badge.svg)](https://github.com/upbound/function-auto-ready/actions/workflows/ci.yml) ![GitHub release (latest SemVer)](https://img.shields.io/github/release/upbound/function-auto-ready)
+
+> This Upbound Official composition function is a lightweight fork of the
+> [upstream Crossplane function][contrib-function]. Most issues and pull
+> requests should be opened against the upstream function.
+
+[contrib-function]: https://github.com/crossplane-contrib/function-auto-ready
 
 This [composition function][docs-functions] automatically detects composed
 resources that are ready. It considers a composed resource ready if:
@@ -80,7 +86,7 @@ $ crossplane xpkg build -f package --embed-runtime-image=runtime
 ```
 
 [docs-functions]: https://docs.crossplane.io/v1.14/concepts/composition-functions/
-[fn-go-templating]: https://github.com/crossplane-contrib/function-go-templating/tree/main
+[fn-go-templating]: https://github.com/upbound/function-go-templating/tree/main
 [go]: https://go.dev
 [docker]: https://www.docker.com
 [cli]: https://docs.crossplane.io/latest/cli
